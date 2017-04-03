@@ -13,4 +13,5 @@ def metrics():
 
 if __name__ == '__main__':
     statuscake.scheduler.start()
+    statuscake.update_metrics()
     app.run(host="0.0.0.0", port=SERVICE_PORT, threaded=True, debug=True)

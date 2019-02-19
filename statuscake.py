@@ -32,7 +32,7 @@ def get_tests():
             metrics['up'].labels(test['WebsiteName'], test['TestID']).set(0)
 
         metrics['uptime'].labels(test['WebsiteName'], test['TestID']).set(test['Uptime'])
-        return [{'id': test['TestID'], 'name': test['WebsiteName']} for test in tests]
+    return [{'id': test['TestID'], 'name': test['WebsiteName']} for test in tests]
 
 
 def get_checks(test):

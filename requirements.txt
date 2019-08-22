@@ -1,6 +1,6 @@
 APScheduler==3.3.1
 click==6.7
-Flask==0.12
+Flask==1.0
 itsdangerous==0.24
 Jinja2==2.9.5
 MarkupSafe==1.0
